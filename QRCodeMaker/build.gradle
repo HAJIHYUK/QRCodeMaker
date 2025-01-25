@@ -25,6 +25,20 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper
+	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '11.0.1'
+    // https://mvnrepository.com/artifact/javax.servlet/jstl
+	implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+	// https://mvnrepository.com/artifact/com.google.zxing/core
+	implementation group: 'com.google.zxing', name: 'core', version: '3.5.3' // QR코드 생성 
+	// https://mvnrepository.com/artifact/com.google.zxing/javase
+	implementation group: 'com.google.zxing', name: 'javase', version: '3.5.3'// QR코드를 이미지로변환 후 다운로드
+	// https://mvnrepository.com/artifact/jakarta.el/jakarta.el-api
+	implementation group: 'jakarta.el', name: 'jakarta.el-api', version: '6.0.1'
+	
+	
+	// https://mvnrepository.com/artifact/javax.servlet/jsp-api
+	compileOnly group: 'javax.servlet', name: 'jsp-api', version: '2.0'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
