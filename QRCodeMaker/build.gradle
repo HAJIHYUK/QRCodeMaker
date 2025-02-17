@@ -27,7 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	// https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper
 	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '11.0.1'
-    // https://mvnrepository.com/artifact/javax.servlet/jstl
+   // https://m vnrepository.com/artifact/javax.servlet/jstl
 	implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
 	// https://mvnrepository.com/artifact/com.google.zxing/core
 	implementation group: 'com.google.zxing', name: 'core', version: '3.5.3' // QR코드 생성 

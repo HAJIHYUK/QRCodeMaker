@@ -27,6 +27,10 @@
     <div>
         <h2>QR 코드</h2>
         <img src="${qrCode}" alt="QR Code">
+        <h3>생성된 qr코드 링크</h3>
+        <div>생성된 qr코드 링크 : ${text}</div>
+        <h3>생성된 이미지</h3>
+        <img src="${imageUrl}" alt="imageUrl">
     </div>
 
     <!-- 오류 메시지 표시 -->
